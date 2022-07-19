@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-GLMetaMask/Pods-GLMetaMask-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework

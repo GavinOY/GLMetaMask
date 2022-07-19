@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42CDD7132884FDB9006E058E /* coinsConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 42CDD7122884FDB9006E058E /* coinsConfig.json */; };
+		42CDD7152885080D006E058E /* GLCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CDD7142885080D006E058E /* GLCoinModel.swift */; };
+		42CDD71728850969006E058E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 42CDD71628850969006E058E /* README.md */; };
+		9B6363DB2883E05500C8D8A2 /* GLSettingPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6363DA2883E05500C8D8A2 /* GLSettingPresent.swift */; };
+		9B6363DD2883E0D700C8D8A2 /* GLSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6363DC2883E0D700C8D8A2 /* GLSettingCell.swift */; };
+		9B6363DF2883E2A800C8D8A2 /* GLSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6363DE2883E2A800C8D8A2 /* GLSettingModel.swift */; };
+		9B6363E128844B5D00C8D8A2 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6363E028844B5D00C8D8A2 /* UIImageExtension.swift */; };
+		9B82676728846AF300D5C83D /* GLMainHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82676628846AF300D5C83D /* GLMainHeaderView.swift */; };
+		9B8267692884799E00D5C83D /* GLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8267682884799E00D5C83D /* GLButton.swift */; };
+		9B8B72E7287C67CF00775EF6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B72E6287C67CF00775EF6 /* UIColorExtension.swift */; };
+		9B8B72E9287C71B800775EF6 /* GLLeftSideViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B72E8287C71B800775EF6 /* GLLeftSideViewCell.swift */; };
+		9B8B72EB287C737100775EF6 /* GLLeftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B72EA287C737100775EF6 /* GLLeftViewModel.swift */; };
+		9B8B72EE287C76BC00775EF6 /* GLLeftSideViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B72ED287C76BC00775EF6 /* GLLeftSideViewPresenter.swift */; };
+		9B8B72F2287C7C4400775EF6 /* CellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B72F1287C7C4400775EF6 /* CellExtension.swift */; };
+		9B8B72F4287DC91300775EF6 /* GLLeftSideSendAndPayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B72F3287DC91300775EF6 /* GLLeftSideSendAndPayCell.swift */; };
+		9B8B72F8287DDC6A00775EF6 /* GLSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B72F7287DDC6900775EF6 /* GLSettingViewController.swift */; };
+		9B9D58142885ADF800BF8CF5 /* GLSwapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D58132885ADF800BF8CF5 /* GLSwapViewController.swift */; };
+		9B9D58162885B3CF00BF8CF5 /* GLSwapHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D58152885B3CF00BF8CF5 /* GLSwapHeaderView.swift */; };
+		9B9D58182885CA8600BF8CF5 /* GLSwapPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D58172885CA8600BF8CF5 /* GLSwapPresent.swift */; };
+		9B9D581A2885CD3500BF8CF5 /* GLSwapNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D58192885CD3500BF8CF5 /* GLSwapNumberInputView.swift */; };
+		9B9D581C2886FF8C00BF8CF5 /* GLSwapSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D581B2886FF8C00BF8CF5 /* GLSwapSearchViewController.swift */; };
+		9B9D581E288708CD00BF8CF5 /* GLSwapSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D581D288708CD00BF8CF5 /* GLSwapSearchCell.swift */; };
+		9BB59BC5286B24D600876D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB59BC4286B24D600876D00 /* AppDelegate.swift */; };
+		9BB59BC7286B24D600876D00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB59BC6286B24D600876D00 /* SceneDelegate.swift */; };
+		9BB59BC9286B24D600876D00 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB59BC8286B24D600876D00 /* MainViewController.swift */; };
+		9BB59BCC286B24D600876D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB59BCA286B24D600876D00 /* Main.storyboard */; };
+		9BB59BCE286B24D800876D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB59BCD286B24D800876D00 /* Assets.xcassets */; };
+		9BB59BD1286B24D800876D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB59BCF286B24D800876D00 /* LaunchScreen.storyboard */; };
+		9BB59BD9286B32D100876D00 /* GLLeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB59BD8286B32D100876D00 /* GLLeftSideViewController.swift */; };
+		9BB59BDB286B3C4C00876D00 /* GLWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB59BDA286B3C4C00876D00 /* GLWebViewController.swift */; };
+		9BB59BDE286B3D8000876D00 /* GLLeftSideHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB59BDD286B3D8000876D00 /* GLLeftSideHeaderView.swift */; };
+		9BB59BE1286B413800876D00 /* GLAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB59BE0286B413800876D00 /* GLAccountModel.swift */; };
+		FC8E4B984DE6407F7CC86235 /* Pods_GLMetaMask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A31DFC099D0061E6B0EFBA0 /* Pods_GLMetaMask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A31DFC099D0061E6B0EFBA0 /* Pods_GLMetaMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLMetaMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1721DA2D45E9EA1C6C723556 /* Pods-GLMetaMask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLMetaMask.debug.xcconfig"; path = "Target Support Files/Pods-GLMetaMask/Pods-GLMetaMask.debug.xcconfig"; sourceTree = "<group>"; };
+		42CDD7122884FDB9006E058E /* coinsConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coinsConfig.json; sourceTree = "<group>"; };
+		42CDD7142885080D006E058E /* GLCoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLCoinModel.swift; sourceTree = "<group>"; };
+		42CDD71628850969006E058E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		9B6363DA2883E05500C8D8A2 /* GLSettingPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSettingPresent.swift; sourceTree = "<group>"; };
+		9B6363DC2883E0D700C8D8A2 /* GLSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSettingCell.swift; sourceTree = "<group>"; };
+		9B6363DE2883E2A800C8D8A2 /* GLSettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSettingModel.swift; sourceTree = "<group>"; };
+		9B6363E028844B5D00C8D8A2 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		9B82676628846AF300D5C83D /* GLMainHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMainHeaderView.swift; sourceTree = "<group>"; };
+		9B8267682884799E00D5C83D /* GLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLButton.swift; sourceTree = "<group>"; };
+		9B8B72E6287C67CF00775EF6 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		9B8B72E8287C71B800775EF6 /* GLLeftSideViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLLeftSideViewCell.swift; sourceTree = "<group>"; };
+		9B8B72EA287C737100775EF6 /* GLLeftViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLLeftViewModel.swift; sourceTree = "<group>"; };
+		9B8B72ED287C76BC00775EF6 /* GLLeftSideViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLLeftSideViewPresenter.swift; sourceTree = "<group>"; };
+		9B8B72F1287C7C4400775EF6 /* CellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellExtension.swift; sourceTree = "<group>"; };
+		9B8B72F3287DC91300775EF6 /* GLLeftSideSendAndPayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLLeftSideSendAndPayCell.swift; sourceTree = "<group>"; };
+		9B8B72F7287DDC6900775EF6 /* GLSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSettingViewController.swift; sourceTree = "<group>"; };
+		9B9D58132885ADF800BF8CF5 /* GLSwapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSwapViewController.swift; sourceTree = "<group>"; };
+		9B9D58152885B3CF00BF8CF5 /* GLSwapHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSwapHeaderView.swift; sourceTree = "<group>"; };
+		9B9D58172885CA8600BF8CF5 /* GLSwapPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSwapPresent.swift; sourceTree = "<group>"; };
+		9B9D58192885CD3500BF8CF5 /* GLSwapNumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSwapNumberInputView.swift; sourceTree = "<group>"; };
+		9B9D581B2886FF8C00BF8CF5 /* GLSwapSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSwapSearchViewController.swift; sourceTree = "<group>"; };
+		9B9D581D288708CD00BF8CF5 /* GLSwapSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLSwapSearchCell.swift; sourceTree = "<group>"; };
+		9BB59BC1286B24D600876D00 /* GLMetaMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLMetaMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB59BC4286B24D600876D00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BB59BC6286B24D600876D00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9BB59BC8286B24D600876D00 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9BB59BCB286B24D600876D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BB59BCD286B24D800876D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BB59BD0286B24D800876D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BB59BD2286B24D800876D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB59BD8286B32D100876D00 /* GLLeftSideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLLeftSideViewController.swift; sourceTree = "<group>"; };
+		9BB59BDA286B3C4C00876D00 /* GLWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLWebViewController.swift; sourceTree = "<group>"; };
+		9BB59BDD286B3D8000876D00 /* GLLeftSideHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLLeftSideHeaderView.swift; sourceTree = "<group>"; };
+		9BB59BE0286B413800876D00 /* GLAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLAccountModel.swift; sourceTree = "<group>"; };
+		EF506F1B7BEB088D2F6C0BBB /* Pods-GLMetaMask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLMetaMask.release.xcconfig"; path = "Target Support Files/Pods-GLMetaMask/Pods-GLMetaMask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BB59BBE286B24D600876D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8E4B984DE6407F7CC86235 /* Pods_GLMetaMask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CDD7112884FBD7006E058E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				42CDD7122884FDB9006E058E /* coinsConfig.json */,
+				9BB59BCD286B24D800876D00 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		825C6D9139D86D302971D7B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1721DA2D45E9EA1C6C723556 /* Pods-GLMetaMask.debug.xcconfig */,
+				EF506F1B7BEB088D2F6C0BBB /* Pods-GLMetaMask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B82676A288486B700D5C83D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9B8B72EC287C768700775EF6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B72ED287C76BC00775EF6 /* GLLeftSideViewPresenter.swift */,
+				9B6363DA2883E05500C8D8A2 /* GLSettingPresent.swift */,
+				9B9D58172885CA8600BF8CF5 /* GLSwapPresent.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9BB59BB8286B24D600876D00 = {
+			isa = PBXGroup;
+			children = (
+				9BB59BC3286B24D600876D00 /* GLMetaMask */,
+				9BB59BC2286B24D600876D00 /* Products */,
+				825C6D9139D86D302971D7B7 /* Pods */,
+				E99896984B27B98FA630E515 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB59BC2286B24D600876D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BB59BC1286B24D600876D00 /* GLMetaMask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB59BC3286B24D600876D00 /* GLMetaMask */ = {
+			isa = PBXGroup;
+			children = (
+				42CDD71628850969006E058E /* README.md */,
+				42CDD7112884FBD7006E058E /* Resource */,
+				9B82676A288486B700D5C83D /* Interactor */,
+				9B8B72EC287C768700775EF6 /* Presenter */,
+				9BB59BE5286B4F1B00876D00 /* Category */,
+				9BB59BE2286B47F300876D00 /* ViewController */,
+				9BB59BDF286B411F00876D00 /* model */,
+				9BB59BDC286B3D4A00876D00 /* View */,
+				9BB59BC4286B24D600876D00 /* AppDelegate.swift */,
+				9BB59BC6286B24D600876D00 /* SceneDelegate.swift */,
+				9BB59BC8286B24D600876D00 /* MainViewController.swift */,
+				9BB59BCA286B24D600876D00 /* Main.storyboard */,
+				9BB59BCF286B24D800876D00 /* LaunchScreen.storyboard */,
+				9BB59BD2286B24D800876D00 /* Info.plist */,
+			);
+			path = GLMetaMask;
+			sourceTree = "<group>";
+		};
+		9BB59BDC286B3D4A00876D00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BB59BDD286B3D8000876D00 /* GLLeftSideHeaderView.swift */,
+				9B8B72E8287C71B800775EF6 /* GLLeftSideViewCell.swift */,
+				9B8B72F3287DC91300775EF6 /* GLLeftSideSendAndPayCell.swift */,
+				9B6363DC2883E0D700C8D8A2 /* GLSettingCell.swift */,
+				9B82676628846AF300D5C83D /* GLMainHeaderView.swift */,
+				9B9D58152885B3CF00BF8CF5 /* GLSwapHeaderView.swift */,
+				9B9D58192885CD3500BF8CF5 /* GLSwapNumberInputView.swift */,
+				9B9D581D288708CD00BF8CF5 /* GLSwapSearchCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BB59BDF286B411F00876D00 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9BB59BE0286B413800876D00 /* GLAccountModel.swift */,
+				9B8B72EA287C737100775EF6 /* GLLeftViewModel.swift */,
+				9B6363DE2883E2A800C8D8A2 /* GLSettingModel.swift */,
+				42CDD7142885080D006E058E /* GLCoinModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9BB59BE2286B47F300876D00 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BB59BD8286B32D100876D00 /* GLLeftSideViewController.swift */,
+				9BB59BDA286B3C4C00876D00 /* GLWebViewController.swift */,
+				9B8B72F7287DDC6900775EF6 /* GLSettingViewController.swift */,
+				9B9D58132885ADF800BF8CF5 /* GLSwapViewController.swift */,
+				9B9D581B2886FF8C00BF8CF5 /* GLSwapSearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9BB59BE5286B4F1B00876D00 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B72F1287C7C4400775EF6 /* CellExtension.swift */,
+				9B8B72E6287C67CF00775EF6 /* UIColorExtension.swift */,
+				9B6363E028844B5D00C8D8A2 /* UIImageExtension.swift */,
+				9B8267682884799E00D5C83D /* GLButton.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E99896984B27B98FA630E515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A31DFC099D0061E6B0EFBA0 /* Pods_GLMetaMask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BB59BC0286B24D600876D00 /* GLMetaMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB59BD5286B24D800876D00 /* Build configuration list for PBXNativeTarget "GLMetaMask" */;
+			buildPhases = (
+				47C12DCA8A34FC9893D2FC7D /* [CP] Check Pods Manifest.lock */,
+				9BB59BBD286B24D600876D00 /* Sources */,
+				9BB59BBE286B24D600876D00 /* Frameworks */,
+				9BB59BBF286B24D600876D00 /* Resources */,
+				4B96A89DA5482ECB409BF126 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLMetaMask;
+			productName = GLMetaMask;
+			productReference = 9BB59BC1286B24D600876D00 /* GLMetaMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BB59BB9286B24D600876D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9BB59BC0286B24D600876D00 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9BB59BBC286B24D600876D00 /* Build configuration list for PBXProject "GLMetaMask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BB59BB8286B24D600876D00;
+			productRefGroup = 9BB59BC2286B24D600876D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB59BC0286B24D600876D00 /* GLMetaMask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BB59BBF286B24D600876D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CDD7132884FDB9006E058E /* coinsConfig.json in Resources */,
+				9BB59BD1286B24D800876D00 /* LaunchScreen.storyboard in Resources */,
+				42CDD71728850969006E058E /* README.md in Resources */,
+				9BB59BCE286B24D800876D00 /* Assets.xcassets in Resources */,
+				9BB59BCC286B24D600876D00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47C12DCA8A34FC9893D2FC7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GLMetaMask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B96A89DA5482ECB409BF126 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GLMetaMask/Pods-GLMetaMask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GLMetaMask/Pods-GLMetaMask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GLMetaMask/Pods-GLMetaMask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BB59BBD286B24D600876D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB59BC9286B24D600876D00 /* MainViewController.swift in Sources */,
+				9BB59BC5286B24D600876D00 /* AppDelegate.swift in Sources */,
+				9BB59BDB286B3C4C00876D00 /* GLWebViewController.swift in Sources */,
+				9B8B72E7287C67CF00775EF6 /* UIColorExtension.swift in Sources */,
+				9BB59BE1286B413800876D00 /* GLAccountModel.swift in Sources */,
+				9B9D58162885B3CF00BF8CF5 /* GLSwapHeaderView.swift in Sources */,
+				9B6363E128844B5D00C8D8A2 /* UIImageExtension.swift in Sources */,
+				9B8267692884799E00D5C83D /* GLButton.swift in Sources */,
+				9BB59BDE286B3D8000876D00 /* GLLeftSideHeaderView.swift in Sources */,
+				9B9D58142885ADF800BF8CF5 /* GLSwapViewController.swift in Sources */,
+				9B9D581E288708CD00BF8CF5 /* GLSwapSearchCell.swift in Sources */,
+				42CDD7152885080D006E058E /* GLCoinModel.swift in Sources */,
+				9B6363DF2883E2A800C8D8A2 /* GLSettingModel.swift in Sources */,
+				9B8B72F8287DDC6A00775EF6 /* GLSettingViewController.swift in Sources */,
+				9B9D58182885CA8600BF8CF5 /* GLSwapPresent.swift in Sources */,
+				9B6363DB2883E05500C8D8A2 /* GLSettingPresent.swift in Sources */,
+				9B8B72EB287C737100775EF6 /* GLLeftViewModel.swift in Sources */,
+				9BB59BD9286B32D100876D00 /* GLLeftSideViewController.swift in Sources */,
+				9B8B72EE287C76BC00775EF6 /* GLLeftSideViewPresenter.swift in Sources */,
+				9B8B72E9287C71B800775EF6 /* GLLeftSideViewCell.swift in Sources */,
+				9B8B72F4287DC91300775EF6 /* GLLeftSideSendAndPayCell.swift in Sources */,
+				9B9D581C2886FF8C00BF8CF5 /* GLSwapSearchViewController.swift in Sources */,
+				9B82676728846AF300D5C83D /* GLMainHeaderView.swift in Sources */,
+				9BB59BC7286B24D600876D00 /* SceneDelegate.swift in Sources */,
+				9B8B72F2287C7C4400775EF6 /* CellExtension.swift in Sources */,
+				9B6363DD2883E0D700C8D8A2 /* GLSettingCell.swift in Sources */,
+				9B9D581A2885CD3500BF8CF5 /* GLSwapNumberInputView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BB59BCA286B24D600876D00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB59BCB286B24D600876D00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BB59BCF286B24D800876D00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB59BD0286B24D800876D00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BB59BD3286B24D800876D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BB59BD4286B24D800876D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BB59BD6286B24D800876D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1721DA2D45E9EA1C6C723556 /* Pods-GLMetaMask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A47VJ3JTZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GLMetaMask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GLMetaMask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BB59BD7286B24D800876D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF506F1B7BEB088D2F6C0BBB /* Pods-GLMetaMask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A47VJ3JTZT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GLMetaMask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GLMetaMask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BB59BBC286B24D600876D00 /* Build configuration list for PBXProject "GLMetaMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB59BD3286B24D800876D00 /* Debug */,
+				9BB59BD4286B24D800876D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB59BD5286B24D800876D00 /* Build configuration list for PBXNativeTarget "GLMetaMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB59BD6286B24D800876D00 /* Debug */,
+				9BB59BD7286B24D800876D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BB59BB9286B24D600876D00 /* Project object */;
+}
