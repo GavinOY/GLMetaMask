@@ -122,11 +122,87 @@
 		9B8B72EC287C768700775EF6 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				9B8B72ED287C76BC00775EF6 /* GLLeftSideViewPresenter.swift */,
-				9B6363DA2883E05500C8D8A2 /* GLSettingPresent.swift */,
 				9B9D58172885CA8600BF8CF5 /* GLSwapPresent.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9B9D581F28883DBD00BF8CF5 /* sections */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D582628883E7000BF8CF5 /* Main */,
+				9B9D582028883DC900BF8CF5 /* LeftSide */,
+			);
+			path = sections;
+			sourceTree = "<group>";
+		};
+		9B9D582028883DC900BF8CF5 /* LeftSide */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D582528883E4300BF8CF5 /* Model */,
+				9B9D582428883DEE00BF8CF5 /* View */,
+				9B9D582328883DEB00BF8CF5 /* Presenter */,
+				9B9D582228883DE700BF8CF5 /* ViewController */,
+				9B9D582128883DDA00BF8CF5 /* Interactor */,
+			);
+			path = LeftSide;
+			sourceTree = "<group>";
+		};
+		9B9D582128883DDA00BF8CF5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9B9D582228883DE700BF8CF5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B72F7287DDC6900775EF6 /* GLSettingViewController.swift */,
+				9BB59BDA286B3C4C00876D00 /* GLWebViewController.swift */,
+				9BB59BD8286B32D100876D00 /* GLLeftSideViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9B9D582328883DEB00BF8CF5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B72F3287DC91300775EF6 /* GLLeftSideSendAndPayCell.swift */,
+				9B6363DA2883E05500C8D8A2 /* GLSettingPresent.swift */,
+				9B8B72ED287C76BC00775EF6 /* GLLeftSideViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9B9D582428883DEE00BF8CF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B72E8287C71B800775EF6 /* GLLeftSideViewCell.swift */,
+				9B6363DC2883E0D700C8D8A2 /* GLSettingCell.swift */,
+				9BB59BDD286B3D8000876D00 /* GLLeftSideHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B9D582528883E4300BF8CF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B6363DE2883E2A800C8D8A2 /* GLSettingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B9D582628883E7000BF8CF5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B72EC287C768700775EF6 /* Presenter */,
+				9BB59BDC286B3D4A00876D00 /* View */,
+				9BB59BDF286B411F00876D00 /* model */,
+				9BB59BE2286B47F300876D00 /* ViewController */,
+				9B82676A288486B700D5C83D /* Interactor */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		9BB59BB8286B24D600876D00 = {
@@ -150,17 +226,12 @@
 		9BB59BC3286B24D600876D00 /* GLMetaMask */ = {
 			isa = PBXGroup;
 			children = (
+				9B9D581F28883DBD00BF8CF5 /* sections */,
 				42CDD71628850969006E058E /* README.md */,
 				42CDD7112884FBD7006E058E /* Resource */,
-				9B82676A288486B700D5C83D /* Interactor */,
-				9B8B72EC287C768700775EF6 /* Presenter */,
 				9BB59BE5286B4F1B00876D00 /* Category */,
-				9BB59BE2286B47F300876D00 /* ViewController */,
-				9BB59BDF286B411F00876D00 /* model */,
-				9BB59BDC286B3D4A00876D00 /* View */,
 				9BB59BC4286B24D600876D00 /* AppDelegate.swift */,
 				9BB59BC6286B24D600876D00 /* SceneDelegate.swift */,
-				9BB59BC8286B24D600876D00 /* MainViewController.swift */,
 				9BB59BCA286B24D600876D00 /* Main.storyboard */,
 				9BB59BCF286B24D800876D00 /* LaunchScreen.storyboard */,
 				9BB59BD2286B24D800876D00 /* Info.plist */,
@@ -171,10 +242,6 @@
 		9BB59BDC286B3D4A00876D00 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9BB59BDD286B3D8000876D00 /* GLLeftSideHeaderView.swift */,
-				9B8B72E8287C71B800775EF6 /* GLLeftSideViewCell.swift */,
-				9B8B72F3287DC91300775EF6 /* GLLeftSideSendAndPayCell.swift */,
-				9B6363DC2883E0D700C8D8A2 /* GLSettingCell.swift */,
 				9B82676628846AF300D5C83D /* GLMainHeaderView.swift */,
 				9B9D58152885B3CF00BF8CF5 /* GLSwapHeaderView.swift */,
 				9B9D58192885CD3500BF8CF5 /* GLSwapNumberInputView.swift */,
@@ -188,7 +255,6 @@
 			children = (
 				9BB59BE0286B413800876D00 /* GLAccountModel.swift */,
 				9B8B72EA287C737100775EF6 /* GLLeftViewModel.swift */,
-				9B6363DE2883E2A800C8D8A2 /* GLSettingModel.swift */,
 				42CDD7142885080D006E058E /* GLCoinModel.swift */,
 			);
 			path = model;
@@ -197,9 +263,7 @@
 		9BB59BE2286B47F300876D00 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				9BB59BD8286B32D100876D00 /* GLLeftSideViewController.swift */,
-				9BB59BDA286B3C4C00876D00 /* GLWebViewController.swift */,
-				9B8B72F7287DDC6900775EF6 /* GLSettingViewController.swift */,
+				9BB59BC8286B24D600876D00 /* MainViewController.swift */,
 				9B9D58132885ADF800BF8CF5 /* GLSwapViewController.swift */,
 				9B9D581B2886FF8C00BF8CF5 /* GLSwapSearchViewController.swift */,
 			);

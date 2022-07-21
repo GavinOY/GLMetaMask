@@ -80,8 +80,20 @@ class GLSwapSearchViewController: UIViewController
         ])
     }
     
+    @objc func onClickedCloseButton(){
+        self.dismiss(animated: true)
+    }
+    
     func setupNavigation(){
         if #available(iOS 13.0, *){
+            let closeBtn = UIButton.init()
+            closeBtn.setTitle("关闭", for: .normal)
+            closeBtn.setTitleColor(UIColor.commonBackgroundBlueColor(), for: .normal)
+            closeBtn.addTarget(self, action: #selector(onClickedCloseButton), for: .touchUpInside)
+            closeBtn.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+            let closeButtonItem = UIBarButtonItem.init(customView: closeBtn)
+            navigationItem.leftBarButtonItem = closeButtonItem
+            
            let barApp =  UINavigationBarAppearance.init()
             barApp.backgroundColor = UIColor.commonBackgroundColor()
             barApp.shadowColor = UIColor.commonBackgroundColor()
